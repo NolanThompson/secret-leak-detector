@@ -1,10 +1,9 @@
-# Slack API Key Detection Bot
+# Secret Leak Detection Bot
 
-![Python Version](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue.svg)
-![License](https://img.shields.io/github/license/NolanThompson/secret-leak-detector)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/NolanThompson/secret-leak-detector/CI)
+![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.11-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-A Slack bot that monitors channels for messages containing potential API keys or sensitive information and provides automated warnings to users.
+An AI-powered Slack bot that monitors channels for messages containing potential API keys or sensitive information and provides automated warnings to users.
 
 ## Table of Contents
 
@@ -13,13 +12,11 @@ A Slack bot that monitors channels for messages containing potential API keys or
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
 
-This Python script is designed to enhance security and compliance within Slack workspaces by automatically detecting messages that may contain API keys or other sensitive information. When such messages are identified, the bot provides warnings to users to promote safe practices.
+This bot is designed to enhance security and compliance within Slack workspaces by automatically detecting messages that may contain API keys or other sensitive information. When such messages are identified, the bot provides warnings and alerts workspace admins to promote safe practices.
 
 ![Example](./example.png)
 
@@ -34,7 +31,7 @@ This Python script is designed to enhance security and compliance within Slack w
 
 Before using this script, ensure you have the following prerequisites:
 
-- Python 3.7 or later installed on your system.
+- Python is up to date on your system.
 - Access to a Slack workspace where you can create and configure bots.
 - Slack API credentials, including a bot token and signing secret.
 - An OpenAI API key with access to the GPT-4 model.
