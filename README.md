@@ -41,38 +41,38 @@ Before using this script, ensure you have the following prerequisites:
 
 1. Clone this repository to your local machine:
 
-    '''bash
+    ```bash
    git clone https://github.com/NolanThompson/secret-leak-detector
-   '''
+   ```
 
 2. Naviagte to the project directory:
     
-    '''bash
+    ```bash
     cd secret-leak-detector
-    '''
+    ```
 
 3. Create a virtual environment (optional but recommended):
 
-    '''bash
+    ```bash
     python -m venv venv
     source venv/bin/activate
-    '''
+    ```
 
 4. Install the required Python packages:
 
-    '''bash
+    ```bash
     pip install -r requirements.txt
-    '''
+    ```
 
 ## Configuration
 
 1. Create a .env file in the project directory and configure it with the following environment variables:
 
-    '''dotenv
+    ```dotenv
     SLACK_TOKEN=your_slack_bot_token
     SIGNING_SECRET=your_slack_signing_secret
     CHATGPT_KEY=your_openai_api_key
-    '''
+    ```
 
 2. Set up a Slack app in your workspace and obtain the bot token and signing secret.
 
