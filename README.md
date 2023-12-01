@@ -24,7 +24,7 @@ This bot is designed to enhance security and compliance within Slack workspaces 
 
 - Monitors Slack channels for messages containing potential API keys.
 - Sends automated warnings when sensitive information is detected.
-- Supports real-time detection using OpenAI's GPT-4 model.
+- Supports real-time detection using GPT4All's local LLM.
 - Promotes security awareness and compliance within Slack teams.
 
 ## Prerequisites
@@ -34,7 +34,6 @@ Before using this script, ensure you have the following prerequisites:
 - Python is up to date on your system.
 - Access to a Slack workspace where you can create and configure bots.
 - Slack API credentials, including a bot token and signing secret.
-- An OpenAI API key with access to the GPT-4 model.
 - Python packages listed in the `requirements.txt` file installed.
 
 ## Installation
@@ -71,12 +70,9 @@ Before using this script, ensure you have the following prerequisites:
     ```dotenv
     SLACK_TOKEN=your_slack_bot_token
     SIGNING_SECRET=your_slack_signing_secret
-    CHATGPT_KEY=your_openai_api_key
     ```
 
 2. Set up a Slack app in your workspace and obtain the bot token and signing secret.
-
-3. Obtain an OpenAI API key with access to the GPT-4 model.
 
 ## License
 
